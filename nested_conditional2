@@ -1,0 +1,10 @@
+
+name = 'n'
+
+if (len(name)==0):
+    print('Failed')
+else:
+    if(len(name)<2):
+        print('The length of name must be minimum 2')
+    else:
+        print('Success')

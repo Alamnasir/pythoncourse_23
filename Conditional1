@@ -1,0 +1,48 @@
+# Practice-1
+a = 30
+b = 30
+if (a==b):
+    print('equality')
+else:
+    print('Unequality')
+    
+#Practice -2
+total_price = 501
+discount = 5
+if(total_price >= 500):
+    total_price = total_price - ((total_price*5)/100)
+    print(total_price)
+else:
+    print(total_price)
+
+# Practice-3
+age=21
+if (age >= 25):
+    print('Candidate is eligible for Prime Minister')
+else:
+    print('Candidate has not an eligibility to be Prime Minister')
+
+# practice - 4
+name= "sevenstar"
+size_name = len(name)
+if(size_name <= 7):
+    print("The Field Must Be Completed")
+else:
+    print("Okay")
+# practice - 4.1
+name= ""
+size_name = len(name)
+if(size_name == 0):
+    print("The Field Must Be Completed")
+else:
+    print("Okay")
+# practice - 4.2
+phone_number= "01920640362"
+size_phone_number = len(phone_number)
+if(size_phone_number == 11):
+    print("Success! Your number is valid")
+else:
+    print("Your phone number is not valid. kindly enter a valid 11 digit phone number")
+
+
+
